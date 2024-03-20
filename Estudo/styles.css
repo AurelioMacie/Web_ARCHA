@@ -1,0 +1,80 @@
+/* Estilos base */
+body {
+	/* serve para zerar as margens de default */
+  margin: 0; 
+  /* definicao de fonte de text */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+	/* definicao da largura maxima para a tela em questao */
+  max-width: 1200px;
+	/* geralmente utilizado com max-width para criar layouts responsivos e dividir a tela de igual maneira */
+  margin: 0 auto;
+	/* definicao do espaco interno entre os componentes */
+  padding: 20px;
+}
+
+header {
+	/* alinhamento do texto dentro do contentor */
+  text-align: center;
+}
+
+nav ul {
+	/* os marcadores padrão (como pontos, números ou imagens) são removidos */
+  list-style-type: none;
+	/* definicao do espaco entre os componentes */
+  padding: 0;
+}
+
+nav li {
+	/* especifica como um elemento HTML deve ser exibido no layout da página : block, inline, inline-block, flex, grid, none */
+  display: inline;
+  /* definicao do espaco externo entre os componentes */
+  margin-right: 15px;
+}
+
+main {
+/* é usada em conjunto com o modelo de layout Flexbox para controlar se os itens flexíveis são forçados a  */
+/* permanecerem em uma única linha ou podem ser quebrados em múltiplas linhas para preencher o contêiner flexível. */
+/* Quando você define flex-wrap: wrap, os itens flexíveis podem ser quebrados em múltiplas linhas, se necessário,  */
+/* para evitar que eles se estendam além da largura do contêiner flexível. */
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens flexíveis sejam quebrados em múltiplas linhas */
+}
+
+section {
+/* A propriedade flex: 1; é comumente usada para distribuir o espaço disponível 
+/* de forma igual entre os itens flexíveis dentro de um contêiner flexível.  */
+/* Isso é útil para criar layouts flexíveis e responsivos, onde os itens devem 
+/* se ajustar dinamicamente ao tamanho do contêiner ou da tela. */
+  flex: 1;
+/* definicao do espaco externo entre os componentes */  
+  margin-right: 20px;
+  margin-bottom: 20px;
+/* definicao do espaco interno entre os componentes */  
+  padding: 10px;
+/* plano de fundo */  
+  background-color: #f0f0f0;
+}
+
+footer {
+  text-align: center;
+}
+
+/* Media queries para layout responsivo */
+@media screen and (max-width: 600px) {
+  nav {
+    text-align: center;
+  }
+
+  nav li {
+    display: block;
+    margin: 0;
+  }
+
+  section {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
+}
