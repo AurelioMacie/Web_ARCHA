@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty-Four package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-10-31 14:05:46+0000\n"
+"PO-Revision-Date: 2024-04-01 15:19:42+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.0-beta.2\n"
+"X-Generator: GlotPress/4.0.0\n"
 "Language: pt\n"
 "Project-Id-Version: Themes - Twenty Twenty-Four\n"
 
@@ -15,6 +15,29 @@ msgstr ""
 #, gp-priority: high
 msgid "Twenty Twenty-Four"
 msgstr "Twenty Twenty-Four"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4."
+msgstr "O tema Twenty Twenty-Four foi desenhado para ser flexível, versátil, e aplicável a qualquer site. A sua colecção de modelos e padrões está à medida das diferentes necessidades, como apresentar um negócio, blogging e escrever, ou mostrar um portfólio de trabalho. Uma multitude de possibilidades abrem-se com apenas alguns ajustes à cor e tipografia. O Twenty Twenty-Four vem com variações de estilo e full page designs para ajudar a acelerar o processo de construção de um site, é inteiramente compatível com o editor do site, e toma partido das novas ferramentas de design introduzidas no WordPress 6.4."
+
+#: functions.php:199
+msgctxt "Block pattern category"
+msgid "Pages"
+msgstr "Páginas"
+
+#: patterns/posts-list.php
+msgctxt "Pattern title"
+msgid "List of posts without images, 1 column"
+msgstr "Lista de artigos sem imagens, 1 coluna"
+
+#: patterns/hidden-portfolio-hero.php:16
+msgid "I’m <em>Leia Acosta</em>, a passionate photographer who finds inspiration in capturing the fleeting beauty of life."
+msgstr "Chamo-me <em>Leia Acosta</em>, sou uma fotógrafa apaixonada que encontra inspiração em captar a beleza fugaz da vida."
+
+#: functions.php:200
+msgid "A collection of full page layouts."
+msgstr "Uma colecção de layouts de página inteira."
 
 #. Author URI of the theme
 #. Translators: WordPress link.
@@ -592,6 +615,165 @@ msgstr "Com seta"
 #: functions.php:28
 msgid "Arrow icon"
 msgstr "Ícone de seta"
+
+#: patterns/hidden-post-meta.php:25
+msgctxt "Prefix for the post category block: in category name"
+msgid "in "
+msgstr "em "
+
+#: patterns/hidden-post-meta.php:20
+msgctxt "Prefix for the post author block: By author name"
+msgid "by"
+msgstr "por"
+
+#: patterns/hidden-sidebar.php:72
+msgid "Search the website"
+msgstr "Pesquisar no site"
+
+#: styles/rust.json
+msgctxt "Style variation name"
+msgid "Rust"
+msgstr "Ferrugem"
+
+#: patterns/text-feature-grid-3-col.php:107
+msgctxt "Sample heading"
+msgid "Architectural Solutions"
+msgstr "Soluções de arquitectura"
+
+#: patterns/text-feature-grid-3-col.php:95
+msgctxt "Sample feature heading"
+msgid "Project Management"
+msgstr "Gestão de projectos"
+
+#: patterns/text-feature-grid-3-col.php:83
+msgctxt "Sample feature heading"
+msgid "Consulting"
+msgstr "Consultoria"
+
+#: patterns/text-feature-grid-3-col.php:62
+msgctxt "Sample feature heading"
+msgid "App Access"
+msgstr "Acesso à aplicação"
+
+#: patterns/text-feature-grid-3-col.php:50
+msgctxt "Sample feature heading"
+msgid "Continuous Support"
+msgstr "Suporte permanente"
+
+#: patterns/template-single-portfolio.php
+msgctxt "Pattern title"
+msgid "Portfolio single post template"
+msgstr "Modelo de conteúdo de portefólio"
+
+#: patterns/testimonial-centered.php:34
+msgctxt "Name of Person Provided the Testimonial"
+msgid "Annie Steiner"
+msgstr "Annie Steiner"
+
+#: patterns/text-alternating-images.php
+msgctxt "Pattern title"
+msgid "Text with alternating images"
+msgstr "Texto com imagens alternadas"
+
+#: patterns/testimonial-centered.php:38
+msgctxt "Designation of Person Provided Testimonial"
+msgid "CEO, Greenprint"
+msgstr "CEO, Greenprint"
+
+#: patterns/template-search-blogging.php
+msgctxt "Pattern title"
+msgid "Blogging search template"
+msgstr "Modelo de pesquisa de blog"
+
+#: patterns/template-search-portfolio.php
+msgctxt "Pattern title"
+msgid "Portfolio search template"
+msgstr "Modelo de pesquisa de portefólio"
+
+#: patterns/template-index-portfolio.php
+msgctxt "Pattern title"
+msgid "Portfolio index template"
+msgstr "Modelo de índice de portefólio"
+
+#: patterns/template-index-blogging.php
+msgctxt "Pattern title"
+msgid "Blogging index template"
+msgstr "Modelo de índice de blog"
+
+#: patterns/template-home-portfolio.php
+msgctxt "Pattern title"
+msgid "Portfolio home template with post featured images"
+msgstr "Modelo de página inicial de portefólio com imagens de destaque dos conteúdos"
+
+#: patterns/posts-images-only-3-col.php
+msgctxt "Pattern title"
+msgid "Posts with featured images only, 3 columns"
+msgstr "Conteúdos apenas com imagens de destaque, 3 colunas"
+
+#: patterns/page-home-portfolio.php
+msgctxt "Pattern title"
+msgid "Portfolio home with post featured images"
+msgstr "Página inicial do portefólio com imagens de destaque dos conteúdos"
+
+#: patterns/team-4-col.php
+msgctxt "Pattern title"
+msgid "Team members, 4 columns"
+msgstr "Membros da equipa, 4 colunas"
+
+#: patterns/posts-grid-2-col.php:13 patterns/posts-list.php:13
+#: patterns/template-index-blogging.php:16
+msgid "Watch, Read, Listen"
+msgstr "Veja, leia, ouça"
+
+#: patterns/posts-grid-2-col.php
+msgctxt "Pattern title"
+msgid "Grid of posts featuring the first post, 2 columns"
+msgstr "Grelha de conteúdos com o primeiro em destaque, 2 colunas"
+
+#: patterns/posts-3-col.php
+msgctxt "Pattern title"
+msgid "List of posts, 3 columns"
+msgstr "Lista de conteúdos, 3 colunas"
+
+#: patterns/posts-1-col.php
+msgctxt "Pattern title"
+msgid "List of posts, 1 column"
+msgstr "Lista de conteúdos, 1 coluna"
+
+#: patterns/page-rsvp-landing.php:48
+msgid "Green staircase at Western University, London, Canada"
+msgstr "Escadaria verde na Western University, Londres, Canadá"
+
+#: patterns/gallery-project-layout.php
+msgctxt "Pattern title"
+msgid "Project layout"
+msgstr "Layout de projecto"
+
+#. Translators: Designed with WordPress
+#: patterns/footer-centered-logo-nav.php:24
+#: patterns/footer-colophon-3-col.php:93 patterns/footer.php:119
+msgid "Designed with %1$s"
+msgstr "Criado com %1$s"
+
+#: patterns/footer-centered-logo-nav.php
+msgctxt "Pattern title"
+msgid "Footer with centered logo and navigation"
+msgstr "Rodapé com logótipo centrado e navegação"
+
+#: patterns/cta-subscribe-centered.php:23
+msgctxt "Sample text for Subscriber Description"
+msgid "Stay in the loop with everything you need to know."
+msgstr "Fique a par de tudo o que precisa de saber."
+
+#: patterns/cta-subscribe-centered.php:19
+msgctxt "Sample text for Subscriber Heading with numbers"
+msgid "Join 900+ subscribers"
+msgstr "Junte-se a mais de 900 subscritores"
+
+#: patterns/cta-rsvp.php:33 patterns/page-rsvp-landing.php:33
+msgctxt "Call to action button text for the reservation button"
+msgid "Reserve your spot"
+msgstr "Reserve o seu lugar"
 
 #. Author of the theme
 #, gp-priority: low
